@@ -3,11 +3,11 @@ ExtensionType: 1
 Name: Nuclei Template Generator Plugin
 RepoName: nuclei-template-generator
 ScreenVersion: 1.1.1
-SerialVersion: 1
+SerialVersion: 2
 MinPlatformVersion: 0
-ProOnly: True
+ProOnly: False
 Author: ProjectDiscovery
 ShortDescription: A plugin intended to help with nuclei template generation.
 EntryPoint: target/nuclei-burp-plugin-1.1.1-SNAPSHOT-jar-with-dependencies.jar
 BuildCommand: mvn clean package -DskipTests=true
-SupportedProducts: Pro
+SupportedProducts: Pro, Community

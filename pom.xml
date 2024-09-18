@@ -5,7 +5,7 @@
 
     <groupId>io.projectdiscovery</groupId>
     <artifactId>nuclei-burp-plugin</artifactId>
-    <version>1.1.2-SNAPSHOT</version>
+    <version>1.1.3-SNAPSHOT</version>
 
     <name>Nuclei Burp Suite plugin</name>
     <description>A Burp Suite plugin created to ease nuclei template development.</description>
@@ -47,8 +47,8 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
 
-        <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
-        <maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
+        <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
+        <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
         <maven-release-plugin.version>3.0.0-M7</maven-release-plugin.version>
 
         <burp-extender-api.version>2.3</burp-extender-api.version>
@@ -57,8 +57,8 @@
         <rsyntaxtextarea.version>3.3.4</rsyntaxtextarea.version>
         <autocomplete.version>3.3.1</autocomplete.version>
 
-        <junit-jupiter.version>5.10.1</junit-jupiter.version>
-        <maven-surefire-plugin.version>3.2.2</maven-surefire-plugin.version>
+        <junit-jupiter.version>5.10.2</junit-jupiter.version>
+        <maven-surefire-plugin.version>3.3.0</maven-surefire-plugin.version>
     </properties>
 
     <dependencies>
